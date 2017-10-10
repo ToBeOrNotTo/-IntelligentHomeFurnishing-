@@ -1,0 +1,9 @@
+.\tim.o: devices\Tim.c
+.\tim.o: devices\Tim.h
+.\tim.o: .\system\stm32f10x_map.h
+.\tim.o: .\system\stm32f10x_conf.h
+.\tim.o: .\system\stm32f10x_type.h
+.\tim.o: .\system\cortexm3_macro.h
+.\tim.o: .\system\jpstm32_gpio.h
+.\tim.o: .\system\jpstm32_common.h
+.\tim.o: .\system\stm32f10x_nvic.h

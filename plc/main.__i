@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\devices -I.\hardware\RGB_LED -I.\system
+-I C:\Keil_v5\ARM\RV31\INC
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0
+-DSTM32F10X_MD
+-o .\main.o --omf_browse .\main.crf --depend .\main.d "app\main.c"

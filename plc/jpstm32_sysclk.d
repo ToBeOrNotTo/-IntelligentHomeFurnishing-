@@ -1,0 +1,9 @@
+.\jpstm32_sysclk.o: system\jpstm32_sysclk.c
+.\jpstm32_sysclk.o: system\jpstm32_sysclk.h
+.\jpstm32_sysclk.o: system\jpstm32_common.h
+.\jpstm32_sysclk.o: system\stm32f10x_map.h
+.\jpstm32_sysclk.o: system\stm32f10x_conf.h
+.\jpstm32_sysclk.o: system\stm32f10x_type.h
+.\jpstm32_sysclk.o: system\cortexm3_macro.h
+.\jpstm32_sysclk.o: system\stm32f10x_nvic.h
+.\jpstm32_sysclk.o: system\jpstm32_nvic.h

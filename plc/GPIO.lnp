@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\main.o"
+".\startup_stm32f10x_md.o"
+".\delay.o"
+".\sys.o"
+".\tim.o"
+".\rgb_led.o"
+".\jpstm32_exti.o"
+".\jpstm32_gpio.o"
+".\jpstm32_nvic.o"
+".\jpstm32_sysclk.o"
+--strict --scatter ".\GPIO.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\GPIO.map" -o .\GPIO.axf
